@@ -1,0 +1,51 @@
+// This contains base styles
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+img[src="images/blog.jpg"] {
+	display: none;
+}
+
+footer {
+	background-color: #4C4C4C;
+	color: white;
+	padding: 2px;
+}
+
+@include tablet {
+
+	.all_content {
+		display: flex;
+	}
+
+	.main_content {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.side_boxes {
+		width: 300px;
+		margin-left: 30px;
+	}
+	
+}
+
+@include desktop {
+
+	body {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.main_body {
+		display: flex;
+		flex-direction: column;
+	}
+}

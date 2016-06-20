@@ -1,0 +1,19 @@
+// This file contains styles for the Contact page
+
+.main_contact {
+	margin-right: 40px;
+}
+
+.locations_contact h2 {
+	margin-bottom: 0;
+}
+
+.locations {
+	display: flex;
+	flex-wrap: wrap;
+
+	div {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

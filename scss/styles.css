@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+img[src="images/blog.jpg"] {
+  display: none; }
+
+footer {
+  background-color: #4C4C4C;
+  color: white;
+  padding: 2px; }
+
+@media (min-width: 700px) {
+  .all_content {
+    display: flex; }
+
+  .main_content {
+    display: flex;
+    justify-content: space-around; }
+
+  .side_boxes {
+    width: 300px;
+    margin-left: 30px; } }
+@media (min-width: 1024px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  .main_body {
+    display: flex;
+    flex-direction: column; } }
+.top_of_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.main_logo {
+  display: block;
+  width: 100%; }
+  .main_logo img {
+    width: 100%; }
+
+.contact_section {
+  text-align: right; }
+
+.contact_images {
+  margin-top: 10px; }
+
+.filters_in_stock {
+  text-align: right;
+  display: none; }
+
+.pickup_locations {
+  margin-top: -10px;
+  margin-bottom: 20px; }
+  .pickup_locations a {
+    text-decoration: none;
+    color: blue; }
+    .pickup_locations a :hover {
+      text-decoration: underline; }
+
+.headset_guy,
+.envelope {
+  vertical-align: text-top; }
+
+.call_toll_free,
+.phone_number {
+  color: blue;
+  text-decoration: none; }
+  .call_toll_free :hover,
+  .phone_number :hover {
+    text-decoration: underline; }
+
+.phone_number {
+  margin-left: 10px;
+  color: black; }
+
+.email_us {
+  margin-top: -15px; }
+  .email_us a {
+    color: black;
+    text-decoration: none; }
+    .email_us a :hover {
+      text-decoration: underline; }
+
+.envelope {
+  margin-left: 10px; }
+
+.picture_header {
+  margin-top: 10px;
+  max-width: 100%; }
+
+.main_nav a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #4C4C4C;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  text-decoration: none; }
+  .main_nav a p {
+    margin: 0; }
+
+.main_nav a:hover {
+  background-color: #0087C1; }
+
+@media (min-width: 700px) {
+  .top_of_page {
+    flex-direction: row; }
+
+  .filters_in_stock {
+    display: inherit; }
+
+  .main_logo {
+    order: -2;
+    width: 32%;
+    margin: 10px 0; }
+
+  .main_nav {
+    display: flex;
+    justify-content: space-between;
+    order: -1; }
+
+  .main_nav a {
+    flex-basis: 14%;
+    border-radius: 3px; }
+
+  .picture_header {
+    max-width: 647px; } }
+@media (min-width: 1024px) {
+  .main_nav a {
+    font-size: 15px;
+    font-weight: 500; } }
+@media (min-width: 700px) {
+  #home .all_content {
+    flex-direction: column;
+    align-items: center; }
+  #home .main_body {
+    flex-direction: row; }
+  #home .side_boxes {
+    width: auto;
+    margin-left: 0; }
+  #home .all_content {
+    display: inherit; }
+
+  .welcome_paragraph {
+    width: 45%; }
+
+  .recent_projects {
+    width: 45%; } }
+.read_more {
+  text-decoration: none;
+  color: blue; }
+  .read_more :hover {
+    text-decoration: underline; }
+  .read_more p {
+    margin-top: -10px; }
+
+.photo {
+  margin-right: 30px; }
+
+#about .main_content p:first-of-type {
+  margin-top: 0; }
+
+.main_contact {
+  margin-right: 40px; }
+
+.locations_contact h2 {
+  margin-bottom: 0; }
+
+.locations {
+  display: flex;
+  flex-wrap: wrap; }
+  .locations div {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+#products .main_content {
+  flex-direction: column; }
+
+.special_link p {
+  margin: 5px 0; }
+
+.product_link_div {
+  border-top: solid 1px black; }
+
+.product_link {
+  color: blue;
+  text-decoration: none; }
+  .product_link :hover {
+    text-decoration: underline; }
+
+.accessories_links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0; }
+  .accessories_links li {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .accessories_links a {
+    text-decoration: none;
+    color: inherit; }
+  .accessories_links a:hover {
+    text-decoration: underline;
+    color: blue; }
+
+@media (min-width: 1024px) {
+  .product_container {
+    display: flex; }
+
+  .product_image {
+    margin-right: 15px; } }
+#vog_links .all_content {
+  justify-content: space-between;
+  flex-wrap: wrap; }
+#vog_links .side_boxes {
+  margin-right: -5px; }
+
+/*# sourceMappingURL=styles.css.map */
