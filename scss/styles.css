@@ -78,6 +78,7 @@ footer {
   margin-left: 5px;
   margin-right: 0;
   color: black;
+  font-weight: bold;
   font-size: 1.4em; }
 
 .email_us {
@@ -228,5 +229,8 @@ footer {
   flex-wrap: wrap; }
 #vog_links .side_boxes {
   margin-right: -5px; }
+
+.replacement_filters_div img {
+  max-width: 205px; }
 
 /*# sourceMappingURL=styles.css.map */
